@@ -1,8 +1,8 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  margin: auto;
-  font-family: "Helvetica Neue", sans-serif;
+  margin: 0 auto 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -120,12 +120,13 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: 68px auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .card {
@@ -259,6 +260,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  margin: 0;
 }
 
 .person_name_feynman {
@@ -387,6 +389,10 @@
   margin-bottom: 32px;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -431,6 +437,10 @@
 
 .footer__list-item {
   margin-top: 16px;
+}
+
+.footer__list-item:first-of-type {
+  margin-top: 0;
 }
 
 .footer__column-heading {
